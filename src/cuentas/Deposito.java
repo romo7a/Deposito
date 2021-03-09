@@ -7,17 +7,25 @@ package cuentas;
 
 /**
  *
- * @author eland
+ * @author AlvaroRomo
+ * @version 1.1
+ * @since 09/03/2021
  */
 public class Deposito {
 
     /**
-     * @param args the command line arguments
+     * @param args recibe en Array de String
      */
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
-
+    
+    /**
+     * @param cantidad argumento de entrada para probar la refactorización
+     * Metodo que te dice la cantidad de saldo actual que tienes
+     * ademas retira de una cuenta dinero 
+     * @throws En caso de que al retirar o al ingresar halla un error tenemos dos métodos que nos pueden lanzar excepciones (estado y ingresar)
+     */
     private static void operativa_cuenta (float cantidad) {
         // TODO code application logic here
         CCuenta cuenta2AAAA;

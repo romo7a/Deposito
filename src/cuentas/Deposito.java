@@ -39,5 +39,5 @@ public class Deposito {
             System.out.println("Fallo al ingresar");
         }
     }
-
+    
 }

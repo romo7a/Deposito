@@ -10,6 +10,7 @@ package cuentas;
  * @author AlvaroRomo
  * @version 1.1
  * @since 09/03/2021
+ * Visto
  */
 public class CCuenta {
 
